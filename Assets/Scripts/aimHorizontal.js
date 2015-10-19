@@ -35,7 +35,7 @@ function Update () {
         }
  
         //Rotate the object around the camera's "up" axis
-        transform.RotateAroundLocal( referenceCamera.up         ,  Mathf.Deg2Rad * rotationX );
+        transform.RotateAroundLocal( referenceCamera.up, Mathf.Deg2Rad * rotationX);
  
 }
 /*var goTarget : GameObject;
